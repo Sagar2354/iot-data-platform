@@ -26,7 +26,6 @@ Modern IoT systems generate large volumes of semi-structured JSON data that cont
 
 🏗️ Architecture
 
-![architecture](architecture.jpeg)
 
 The pipeline is built using a layered Medallion Architecture:
 
@@ -40,7 +39,8 @@ Gold Layer (Aggregated KPIs)
       ↓
 Dashboard (Insights)
 
-"Architecture Diagram" (architecture/architecture.jpeg)
+"Architecture Diagram" ![architecture](architecture/architecture.jpeg)
+
 
 ---
 
@@ -118,19 +118,19 @@ Created analytics-ready datasets:
 
 🟡 Gold Layer Aggregation
 
-![gold_table](gold_table.jpeg)
+![gold_table](screenshots/gold_table.jpeg)
 
 ---
 
 🔵 Active vs Inactive Devices
 
-![Sensor_ActiveInactive](Sensor_ActiveInactive_Pie-1.png)
+![Sensor_ActiveInactive](screenshots/Sensor_ActiveInactive_Pie.png)
 
 ---
 
 🟢 Temperature Trends
 
-![Sensor_AvgTemp](Sensor_AvgTemp_LineDotted-1.png)
+![Sensor_AvgTemp](screenshots/Sensor_AvgTemp_LineDotted.png)
 
 ---
 
@@ -159,5 +159,6 @@ Messy IoT Data → Clean Pipeline → Business Insights
 
 🔗 Author
 
-VS Vidyasagar
+VS Vidyasagar  
+
 Associate Data Engineer
